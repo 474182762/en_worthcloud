@@ -1,0 +1,126 @@
+.content{
+
+}
+.con_one{
+    height: 664px;
+    margin-top: 66px;
+    background: url('../../images/app1.jpg') center center no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    display: -webkit-box;
+    /* display: box; */
+    position: relative;
+}
+.con_one .left{
+    position: relative;
+     color: #fff;
+     left: 18.75%;
+     top:120px;
+}
+.con_one .hand{
+    font-size: 44px;
+    font-weight: bold;
+}
+.con_one .devices{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.con_one .line{
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: 74px;
+}
+.con_one .app_store{
+    margin-top: 40px;
+}
+.con_one .app_store img{
+    display: inline;
+}
+.con_one .app_store .ios{
+    margin-right: 30px;
+}
+.con_one .right{
+    overflow: hidden;
+    position: absolute;
+    top:52px;
+    right:110px;   
+}
+.con_one .circle{
+    position: absolute;
+    top:50px;
+    right:152px; 
+    z-index: 2
+}
+.con_two{
+    height: 730px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-box;
+    position: relative;
+    overflow: hidden;
+}
+.con_two .call{
+   margin: 194px 0 0 23.12%;
+   height: 912px;
+   width: 428px;
+}
+.con_two .right_info{
+    margin: 226px 0 0 220px;
+    color: #383949;
+}
+.con_two .right_info h2,
+.con_three h2,
+.con_four .info h2{
+    font-size: 44px;
+    margin-bottom: 20px;
+    
+}
+.con_two .right_info p,
+.con_three p,
+.con_four .info p{
+    font-size: 20px;
+    margin-bottom: 80px;
+    line-height: 1.5;
+}
+.con_two .right_info .line,
+.con_three .line,
+.con_four .info .line{
+    width: 37px;
+    height: 2px;
+    background:#383949;
+}
+.con_three h2{
+    margin-top: 276px;
+}
+.con_three{
+    height: 730px;
+    background: url('../../images/app7.jpg') center center no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    padding-left: 18.65%;
+    overflow: hidden;
+}
+.con_four{
+    height: 730px;
+    background: url('../../images/app8.jpg') center center no-repeat;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+.con_four .mark{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+.con_four .info{
+    position: absolute;
+    top:210px;
+    left:56.87%;
+    z-index: 2
+}
+.con_four .info .line{
+    background: #fff;
+}
